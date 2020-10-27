@@ -2,7 +2,7 @@ from turtle import *
 from freegames import vector
 
 # Juan Angel Mora Moreno | A00517141
-# (Nombre y matrícula)
+# Isaac Arredondo Padron | A00828359 
 
 #Función que dibuja una línea en las posiciones que determine el cursor
 def line(start, end):
