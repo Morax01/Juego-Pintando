@@ -25,10 +25,12 @@ def circle(start, end):
     "Draw circle from start to end."
     pass  # TODO
 
+#Funcion del rectangulo
 def rectangle(start, end):
     "Draw rectangle from start to end."
     pass  # TODO
 
+#Funcion del triangulo
 def triangle(start, end):
     "Draw triangle from start to end."
     pass  # TODO
