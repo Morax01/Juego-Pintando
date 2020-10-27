@@ -1,6 +1,10 @@
 from turtle import *
 from freegames import vector
 
+# Juan Angel Mora Moreno | A00517141
+# (Nombre y matrícula)
+
+#Función que dibuja una línea en las posiciones que determine el cursor
 def line(start, end):
     "Draw line from start to end."
     up()
@@ -8,6 +12,7 @@ def line(start, end):
     down()
     goto(end.x, end.y)
 
+#Función que dibuja un cuadrado en las posiciones que determine el cursor
 def square(start, end):
     "Draw square from start to end."
     up()
@@ -20,12 +25,13 @@ def square(start, end):
         left(90)
 
     end_fill()
-
+    
+#Función que dibuja un círculo en las posiciones que determine el cursor
 def circle(start, end):
     "Draw circle from start to end."
     pass  # TODO
 
-#Funcion del rectangulo
+#Función que dibuja un rectángulo en las posiciones que determine el cursor
 def rectangle(start, end):
     "Draw rectangle from start to end."
     up()
@@ -44,7 +50,7 @@ def rectangle(start, end):
 
     end_fill()
 
-#Funcion del triangulo
+#Función que dibuja un triángulo en las posiciones que determine el cursor
 def triangle(start, end):
     "Draw triangle from start to end."
     up()
@@ -83,6 +89,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+onkey(lambda: color('purple'), 'P')   # Color nuevo agregado
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
