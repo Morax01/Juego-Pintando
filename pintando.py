@@ -29,7 +29,13 @@ def square(start, end):
 #Función que dibuja un círculo en las posiciones que determine el cursor
 def circle(start, end):
     "Draw circle from start to end."
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    circle(120)
+    end_fill()
 
 #Función que dibuja un rectángulo en las posiciones que determine el cursor
 def rectangle(start, end):
