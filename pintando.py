@@ -28,7 +28,21 @@ def circle(start, end):
 #Funcion del rectangulo
 def rectangle(start, end):
     "Draw rectangle from start to end."
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    forward(end.x - start.x)
+    left(90)
+    forward(end.y - start.y)
+    left(90)
+    forward(end.x - start.x)
+    left(90)
+    forward(end.y - start.y)
+    left(90)
+
+    end_fill()
 
 #Funcion del triangulo
 def triangle(start, end):
