@@ -1,5 +1,6 @@
 from turtle import *
 from freegames import vector
+import turtle
 
 # Juan Angel Mora Moreno | A00517141
 # Isaac Arredondo Padron | A00828359 
@@ -34,7 +35,7 @@ def circle(start, end):
     down()
     begin_fill()
 
-    circle(120)
+    turtle.circle(end.x - start.x)
     end_fill()
 
 #Función que dibuja un rectángulo en las posiciones que determine el cursor
